@@ -92,7 +92,7 @@ function Home() {
       setIsLoading(true);
 
       const configuration = new Configuration({
-        apiKey: "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",
+        apiKey: "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",
       });
       const openai = new OpenAIApi(configuration);
       const response = await openai.createCompletion({
@@ -201,7 +201,6 @@ function Home() {
           &copy; {new Date().getFullYear()} Mahammadsaleh Abbas. All rights
           reserved.
         </div>
-        
       </div>
     </div>
   );
